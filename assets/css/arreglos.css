@@ -11,3 +11,30 @@
   max-width: 100%;
   height: auto;
 }
+
+/* Estilos específicos para pantallas pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  img_logo_horizontal {
+    width: 100%; /* Ajustar el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    /* Otros estilos específicos para pantallas pequeñas */
+  }
+}
+
+/* Estilos específicos para pantallas medianas (entre 769px y 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  img_logo_horizontal {
+    max-width: 50%; /* Reducir el ancho de la imagen al 50% del contenedor */
+    height: auto;
+    /* Otros estilos específicos para pantallas medianas */
+  }
+}
+
+/* Estilos específicos para pantallas grandes (más de 1200px) */
+@media (min-width: 1201px) {
+  img_logo_horizontal {
+    max-width: 30%; /* Reducir el ancho de la imagen al 30% del contenedor */
+    height: auto;
+    /* Otros estilos específicos para pantallas grandes */
+  }
+}
