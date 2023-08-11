@@ -22,6 +22,9 @@
   --color-default: #212529;
   --color-default-rgb: 33, 37, 41;
   --color-background: #ffffff;
+  /* Estilos para el fondo con degradado transparente */
+
+
   --color-background-rgb: 255, 255, 255;
   --color-primary: #e84545;
   --color-primary-rgb: 232, 69, 69;
@@ -81,7 +84,8 @@
 --------------------------------------------------------------*/
 body {
   color: var(--color-default);
-  background-color: var(--color-background);
+  /* background-color: var(--color-background); */
+  background: linear-gradient(to bottom, rgba(151, 4, 4, 0), rgb(8, 201, 239)) center/cover no-repeat;
   font-family: var(--font-default);
 }
 
@@ -107,8 +111,9 @@ h6 {
 
 section {
   color: var(--color-default);
-  background-color: var(--color-background);
-  padding: 60px 0;
+  /* background-color: var(--color-background); */
+  /* background: linear-gradient(to right, rgba(2, 49, 93, 0), rgb(6, 170, 240));  padding: 60px 0; */
+  background: linear-gradient(to  right,  #fcfcfc,  #04bbf8);
   overflow: clip;
 }
 
@@ -201,6 +206,9 @@ section {
   --color-inverse: #ffffff;
   color: var(--color-default);
   background-color: var(--color-background);
+  /* background: linear-gradient(to left , #2a63dd, #5be1f6, #33D6A6); */
+
+  /* background: linear-gradient(to center, rgba(10, 82, 226, 0), rgb(2, 24, 171)); */
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -710,6 +718,7 @@ section {
   --color-box-background: #eaeaea;
   color: var(--color-default);
   background-color: var(--color-background);
+  /* background: linear-gradient(to right, rgba(10, 82, 226, 0), rgb(2, 41, 157)); */
   font-size: 14px;
   padding-bottom: 50px;
 }
