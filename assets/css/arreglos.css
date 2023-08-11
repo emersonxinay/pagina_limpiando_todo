@@ -6,3 +6,8 @@
 .text-center {
   text-align: center;
 }
+
+#img_logo_horizontal {
+  max-width: 100%;
+  height: auto;
+}
